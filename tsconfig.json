@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types"],
+    "target": "ES2023",
+
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+
+    "noEmit": true, // Use bundler
+    "sourceMap": true,
+
+    "strict": true,
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitReturns": true,
+    "noPropertyAccessFromIndexSignature": true,
+    "noUncheckedIndexedAccess": true,
+
+    // Warn about code that bundlers cannot understand correctly
+    "isolatedModules": true
+  },
+  "include": ["src/"]
+}

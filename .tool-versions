@@ -1,0 +1,7 @@
+adr-tools 3.0.0
+jq 1.7.1
+nodejs 20.15.1
+terraform 1.4.6
+terraform-docs 0.16.0
+tfsec 1.18.0
+yarn 1.22.22
